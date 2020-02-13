@@ -682,6 +682,15 @@ footer
             left: 12rem;
           }
 
+          #about p{
+            padding-left: 2rem;
+            padding-right: 2rem;
+          }
+
+          textarea{
+            width: 100%;
+          }
+
           .accordion {
             color: #038BB4;
             cursor: pointer;
