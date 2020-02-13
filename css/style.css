@@ -376,11 +376,13 @@ color: #fff;
 border-color: #000;
 }
 
-#our-services{
+#our-services,
+#services{
   margin-bottom: 5rem;
 }
 
-    #our-services h3{
+    #our-services h3,
+    #services h3{
         color: #000066;
         font-size: 35px;
         text-align: center;
@@ -481,6 +483,30 @@ border-color: #000;
       color: #000;
       line-height: 2rem;
       text-align: justify;
+    }
+
+    .card{
+      height: 70vh;
+    }
+
+
+    .card .card-heading h5{
+      color: #000066;
+      margin-left: 2rem;
+      font-size: 18px;
+      min-height: 3rem;
+    }
+
+    .card .card-text p{
+      margin-left: 2rem;
+      /* margin-right: 2rem; */
+      padding-right: 1rem;
+      text-align: left;
+      min-height: 15rem;
+     
+    }
+    .card .card-text a{
+      margin-left: 2rem; 
     }
 
 
