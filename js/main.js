@@ -95,7 +95,7 @@ jQuery(document).ready(function( $ ) {
 
 
 
-    });
+  
 
     //faq accordion
 var acc = document.getElementsByClassName("accordion");
@@ -112,3 +112,5 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+});
